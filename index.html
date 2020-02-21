@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reserva tu Hora Médica Aquí ♡</title>
+    <link rel="shortcut icon" type="assets/img" href="assets/img/form-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Formulario para Agendar tu Hora Médica ⚕✙</h1>
+    </header>
+    <section>
+      <form class="form-reserve" onsubmit="return reservar(event);">
+      <!-- Contenedor del formulario -->
+        <div class="form-container">
+          <h4 class="sub-title">Ingrese su Rut</h4>
+          <input type="text" id="rut" name="rut" placeholder="Rut" class="inputcss">
+          <h4 class="sub-title">Ingrese sus Nombres</h4>
+          <input type="text" id="names" name="nombres" placeholder="Nombres" class="inputcss">
+          <h4 class="sub-title">Ingrese sus Apellidos</h4>
+          <input type="text" id="surnames" name="apellidos" placeholder="Apellidos" class="inputcss">
+          <h4 class="sub-title">Ingrese su Edad</h4>
+          <input type="text" id="age" name="edad" placeholder="Edad" class="inputcss">
+          <h4 class="sub-title">¿Cuál es su Correo Electrónico?</h4>
+          <input type="email" id="mail" name="correo" placeholder="Correo" class="inputcss">
+          <h4 class="sub-title">Ingrese su Teléfono de Contacto</h4>
+          <input type="text" id="phone" name="telefono" placeholder="Teléfono (+56- --------)" class="inputcss">
+          <h4 class="sub-title">Elija la Especialidad</h4>
+          <select class="select-1" id="specialty" name="">
+            <option value="">Seleccione</option>
+            <!-- En los value de las option, cuando no es arreglo, se debe poner el mismo nombre del valor al atributo -->
+            <option value="Medicina General">Medicina General</option>
+            <option value="Cardiología">Cardiología</option>
+            <option value="Ginecología">Ginecología</option>
+            <option value="Traumatología">Traumatología</option>
+            <option value="Dental">Dental</option>
+            <option value="Psicología y Psiquiatría">Psicología y Psiquiatría</option>
+          </select>
+          <h4 class="sub-title">Coloque una Fecha que estime Conveniente</h4>
+          <input type="text" id="date" name="fecha" placeholder="dd-mm-aaaa" class="inputcss">
+          <h4 class="sub-title">Elija el Horario que le Acomode</h4>
+          <select class="select-2" id="hour" name="">
+            <option value="">Seleccione</option>
+            <option value="08:00">08:00</option>
+            <option value="09:00">09:00</option>
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+            <option value="15:00">15:00</option>
+            <option value="16:00">16:00</option>
+            <option value="17:00">17:00</option>
+            <option value="18:00">18:00</option>
+          </select>
+          <br>
+          <br>
+          <br>
+          <input type="submit" value="Reservar" class="btn-reservar">
+        </div>
+      </form>
+    </section>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+  </body>
+</html>

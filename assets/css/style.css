@@ -1,0 +1,87 @@
+body {
+  font-family: 'Pangolin', cursive;
+  text-align: center;
+  background: rgb(255,162,162);
+  background: linear-gradient(90deg, rgba(255,162,162,1) 0%, rgba(176,1,11,1) 50%, rgba(255,122,127,1) 100%);
+  color: peachpuff;
+  margin: 0;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.form-reserve {
+  display: flex;
+  justify-content: center;
+}
+
+ /* Contenedor Input */
+.form-container {
+  width: 60%;
+  background-color: lightcoral;
+  color: #B30811;
+  padding-bottom: 2em;
+  border-radius: 1em;
+  border: 2px solid brown;
+}
+
+/* Título Principal */
+.title {
+  font-size: 3em;
+}
+
+/* Títulos dentro del input */
+.sub-title {
+  font-size: 2em;
+}
+
+/* Rectangulos Input */
+input {
+  width: 80%;
+  height: 3em;
+  background-color: lightpink;
+  color: brown;
+  font-family: 'Pangolin', cursive;
+  outline: none;
+  border-radius: 1em;
+  border: solid 1px lightcoral;
+  font-size: 1em;
+  text-align: center;
+}
+
+input::placeholder {
+  color: brown;
+}
+
+/* Botón Reservar */
+.btn-reservar {
+  width: 30%;
+  background-color: brown;
+  color: peachpuff;
+}
+
+/* Menús Seleccionar */
+.select-1 {
+  width: 55%;
+  height: 3em;
+  background-color: lightpink;
+  text-align-last: center;
+  color: brown;
+  font-family: 'Pangolin', cursive;
+  outline: none;
+  border-radius: 1em;
+  border: solid 1px lightcoral;
+  font-size: 1em;
+}
+
+.select-2 {
+  width: 30%;
+  height: 3em;
+  background-color: lightpink;
+  text-align-last: center;
+  color: brown;
+  font-family: 'Pangolin', cursive;
+  outline: none;
+  border-radius: 1em;
+  border: solid 1px lightcoral;
+  font-size: 1em;
+}
